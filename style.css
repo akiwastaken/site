@@ -1,10 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lexend Deca', sans-serif;
 	background: #121212;	
 }
 
 .contents {
 	color: #ffffff;
+}
+
+.contents a {
+	color: #85C1E9;
+}
+
+.contents a:visited {
+	color:#AF7AC5;
+}
+  
+  /* mouse over link */
+.contents a:hover {
+	color: #48C9B0;
+}
+  
+  /* selected link */
+.contents a:active {
+	color: #58D68D;
 }
