@@ -7,7 +7,10 @@ body {
 
 .contents {
 	color: #ffffff;
-	margin: 0 auto;
+	right: 50%;
+	transform: translate(50%, 50%);
+	position: absolute;
+	bottom: 50%;
 }
 
 .contents a {
